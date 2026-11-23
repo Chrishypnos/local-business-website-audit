@@ -1,0 +1,103 @@
+{
+  "_comment": "SAMPLE DATA for a fictional business. Replace every number with real research for each client.",
+  "business": {"name": "Example Painting Co.", "domain": "examplepainting.com", "location": "Ridgewood, NJ"},
+  "prepared_for": "Example Painting Co.",
+  "date": "January 5, 2027",
+  "short_date": "Jan 5, 2027",
+  "brand": {
+    "name": "Hypnos AI",
+    "logo": "../assets/hypnos-logo.png",
+    "website": "hypnos-ai.com",
+    "email": "support@hypnos-ai.com",
+    "phone": "(201) 800-4647",
+    "contact_name": "Chris Fotomaras"
+  },
+  "sections": [
+    {
+      "title": "What your website does today",
+      "lead": "Right now, Google sends examplepainting.com about <b>3 visitors a month</b>. The business is not in the Google Maps top 10 for its core services and has 4 Google reviews.",
+      "blocks": [
+        {"type": "kpis", "items": [
+          ["3", "Google visitors per month<br/>(Semrush and Open SEO)"],
+          ["5", "Keywords the site ranks for<br/>(none on page 1)"],
+          ["#14", "Google Maps position for “painters near me”"],
+          ["4", "Google reviews<br/>(competitors have 100+)"],
+          ["5/100", "Semrush Authority Score"],
+          ["0", "Mentions in ChatGPT, Google AI Overviews, AI Mode and Gemini"]
+        ]},
+        {"type": "spacer", "height": 14},
+        {"type": "heading", "text": "The good news"},
+        {"type": "bullets", "items": [
+          "The site loads quickly on phones and has detailed service pages.",
+          "The Google Business Profile is claimed and verified.",
+          "Most local painting keywords are rated easy to rank for."
+        ]}
+      ]
+    },
+    {
+      "title": "1. Website traffic",
+      "lead": "Local competitors get 20 to 300 visitors a month from Google for the same services.",
+      "blocks": [
+        {"type": "bar_chart", "title": "Example Painting gets about 3 Google visitors a month",
+         "subtitle": "Estimated monthly visitors from Google search, local independent painters",
+         "unit": "visitors/month",
+         "rows": [["Competitor A", 300, false], ["Competitor B", 120, false], ["Competitor C", 20, false], ["Example Painting Co.", 3, true]],
+         "note": "At the current $800/month marketing spend, that is about $267 per visitor.",
+         "source": "Source: Open SEO (DataForSEO) and Semrush US organic traffic estimates. Franchises excluded."},
+        {"type": "callout", "title": "Lead response test: no reply after 5+ minutes",
+         "paragraphs": ["We sent a message through the website chat. More than 5 minutes later, <b>nobody had responded</b>.",
+                        "The 2007 MIT/InsideSales Lead Response Management study found that contacting a web lead within 5 minutes instead of 30 gave <b>100 times</b> the odds of reaching them and <b>21 times</b> the odds of qualifying them."]}
+      ]
+    },
+    {
+      "title": "2. What people search for",
+      "lead": "The biggest local searches have no matching page on the website.",
+      "blocks": [
+        {"type": "table", "columns": ["Search term", "Monthly searches", "Difficulty", "Cost per click", "Page on site?"],
+         "widths": [0.34, 0.16, 0.14, 0.16, 0.20],
+         "rows": [["painters near me", "260", "14", "$9.72", "No"], ["interior painting", "210", "18", "$0.22", "Yes, not ranking"], ["cabinet painting", "90", "10", "$0.69", "No"]]},
+        {"type": "small", "text": "Source: Open SEO, county-level search volume."}
+      ]
+    },
+    {
+      "title": "3. Google Maps and reviews",
+      "lead": "Most calls come from the Google Maps results. The business shows up at #14.",
+      "blocks": [
+        {"type": "bar_chart", "title": "Competitors have 100+ Google reviews. Example Painting has 4.",
+         "subtitle": "Google reviews on each company's Business Profile", "unit": "reviews", "width": 0.7,
+         "rows": [["Competitor A", 410, false], ["Competitor B", 240, false], ["Competitor C", 125, false], ["Example Painting Co.", 4, true]]},
+        {"type": "table", "columns": ["Company", "Maps rank", "Rating", "Reviews"], "widths": [0.46, 0.18, 0.16, 0.20],
+         "rows": [["Competitor A", "1", "4.9", "410"], ["Competitor B", "2", "4.8", "240"], ["Example Painting Co.", "14", "5.0", "4"]],
+         "highlight_row": 3}
+      ]
+    },
+    {
+      "title": "7. Legal and compliance risk",
+      "lead": "The site has <b>no privacy policy, terms and conditions or accessibility statement</b>.",
+      "blocks": [
+        {"type": "table", "columns": ["Item", "Status"], "widths": [0.43, 0.57],
+         "rows": [["Privacy policy", "<font color='#C0392B'><b>Missing</b></font>"], ["Terms and conditions", "<font color='#C0392B'><b>Missing</b></font>"], ["Accessibility statement", "<font color='#C0392B'><b>Missing</b></font>"]]},
+        {"type": "heading", "text": "What it can cost: real examples"},
+        {"type": "table", "columns": ["Risk", "What can happen", "Example amounts"], "widths": [0.22, 0.43, 0.35],
+         "rows": [["<b>ADA website lawsuits</b>", "Plaintiff firms scan small-business websites and send demand letters or file suit.", "An Orlando flower shop paid <b>$7,000+</b> in late 2024. Average out-of-court settlement: about <b>$25,000–$30,000</b>."],
+                  ["<b>Texting without consent</b>", "Follow-up texts sent without documented consent (TCPA).", "<b>$500 per text</b>, up to <b>$1,500</b> if willful."]]},
+        {"type": "small", "text": "Not legal advice; have a licensed attorney review final policies. Re-verify all figures before each report."}
+      ]
+    },
+    {
+      "title": "8. What we recommend",
+      "lead": "The fastest gains come from Google Maps and reviews.",
+      "blocks": [
+        {"type": "plan", "phases": [
+          {"title": "Days 1–30: foundation", "items": ["Fix the Google Business Profile", "Publish privacy policy, terms and accessibility statement", "Start automatic review requests"]},
+          {"title": "Days 31–60: content and coverage", "items": ["Add service and town pages", "Connect Search Console and Analytics"]},
+          {"title": "Days 61–90: authority and more calls", "items": ["Reach 30+ Google reviews", "24/7 AI call answering and instant text follow-up"]}
+        ]},
+        {"type": "spacer", "height": 10},
+        {"type": "targets", "text": "Google Maps top 3 for core searches · 30+ Google reviews · calls tracked by source"},
+        {"type": "spacer", "height": 18},
+        {"type": "contact"}
+      ]
+    }
+  ]
+}
