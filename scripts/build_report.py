@@ -211,7 +211,7 @@ def build(cfg, out, base):
         c.drawImage(logo, x + 0.2 * inch, y + 0.2 * inch, lw, lh, mask="auto")
         c.setFillColor(colors.HexColor("#B8C4D4"))
         c.setFont(BASE, 10)
-        c.drawRightString(letter[0] - 0.75 * inch, letter[1] - 2.55 * inch, f"{brand['website']}  ·  {brand['email']}")
+        c.drawRightString(x + lw + 0.4 * inch, y - 0.22 * inch, f"{brand['website']}  ·  {brand['email']}")
         c.restoreState()
         on_page(c, doc)
 

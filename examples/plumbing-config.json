@@ -1,0 +1,178 @@
+{
+  "_comment": "SAMPLE REPORT with illustrative data for a fictional plumbing company. Not a real business.",
+  "business": {"name": "Example Plumbing Co.", "domain": "exampleplumbing.com", "location": "Hackensack, NJ"},
+  "prepared_for": "Example Plumbing Co.",
+  "report_label": "SAMPLE REPORT  \u00b7  ILLUSTRATIVE DATA",
+  "date": "November 23, 2026",
+  "short_date": "Nov 23, 2026",
+  "brand": {
+    "name": "Hypnos AI",
+    "logo": "../assets/hypnos-logo.png",
+    "website": "hypnos-ai.com",
+    "email": "support@hypnos-ai.com",
+    "phone": "(201) 800-4647",
+    "contact_name": "Chris Fotomaras"
+  },
+  "sections": [
+    {
+      "title": "What your website does today",
+      "lead": "Right now, Google sends exampleplumbing.com about <b>6 visitors a month</b>. The business is not in the Google Maps top 10 for “plumber near me” or “emergency plumber”, has 9 Google reviews, and is not mentioned by AI assistants. The site also has no privacy policy, terms or accessibility statement (see section 7). <i>This is a sample report; all figures are illustrative.</i>",
+      "blocks": [
+        {"type": "kpis", "items": [
+          ["6", "Google visitors per month<br/>(Semrush and Open SEO)"],
+          ["11", "Keywords the site ranks for<br/>(none on page 1)"],
+          ["#16", "Google Maps position for “plumber near me”"],
+          ["9", "Google reviews<br/>(competitors have 150–900)"],
+          ["4/100", "Semrush Authority Score<br/>(“low authority”)"],
+          ["0", "Mentions in ChatGPT, Google AI Overviews, AI Mode and Gemini"]
+        ]},
+        {"type": "spacer", "height": 14},
+        {"type": "heading", "text": "The good news"},
+        {"type": "bullets", "items": [
+          "The site loads quickly on phones and the phone number is click-to-call on every page.",
+          "You hold a NJ Master Plumber license and offer 24/7 emergency service, both strong selling points the site barely mentions.",
+          "Plumbing searches are high-value and many local keywords are rated easy to rank for."
+        ]}
+      ]
+    },
+    {
+      "title": "1. Website traffic",
+      "lead": "Local independent plumbers get 45 to 420 visitors a month from Google. Example Plumbing gets about 6.",
+      "blocks": [
+        {"type": "bar_chart", "title": "Example Plumbing gets about 6 Google visitors a month",
+         "subtitle": "Estimated monthly visitors from Google search, local independent plumbers",
+         "unit": "visitors/month",
+         "rows": [["Local Competitor A", 420, false], ["Local Competitor B", 185, false], ["Local Competitor C", 45, false], ["Example Plumbing Co.", 6, true]],
+         "note": "At the current $1,200/month marketing spend, that is about $200 per visitor.",
+         "source": "Source: Open SEO (DataForSEO) and Semrush US organic traffic estimates. Franchises such as Roto-Rooter and Mr. Rooter are left out because their figures cover many locations."},
+        {"type": "heading", "text": "What a visitor is worth"},
+        {"type": "paragraph", "text": "Advertisers in Bergen County pay <b>$48</b> per click for “emergency plumber near me” and <b>$62</b> for “water heater replacement”. One extra water heater or sewer line job a month covers the cost of fixing this."},
+        {"type": "callout", "title": "Lead response test: no reply after 5+ minutes",
+         "paragraphs": ["We submitted the website’s “Request Service” form on a weekday afternoon. More than 5 minutes later, <b>nobody had called, texted or emailed</b>. A homeowner with a burst pipe calls the next plumber on Google.",
+                        "Speed matters: the 2007 MIT/InsideSales Lead Response Management study (15,000+ leads) found that contacting a web lead within 5 minutes instead of 30 gave <b>100 times</b> the odds of reaching them and <b>21 times</b> the odds of qualifying them."]}
+      ]
+    },
+    {
+      "title": "2. What people search for",
+      "lead": "The biggest plumbing searches in the county have no matching page on the website. Most are rated easy to rank for.",
+      "blocks": [
+        {"type": "table", "columns": ["Search term", "Monthly searches", "Difficulty", "Cost per click", "Page on site?"],
+         "widths": [0.34, 0.16, 0.13, 0.16, 0.21],
+         "rows": [
+           ["plumber near me", "1,300", "22", "$31.40", "Homepage only"],
+           ["emergency plumber near me", "320", "12", "$48.10", "No"],
+           ["water heater replacement", "260", "18", "$62.30", "No"],
+           ["drain cleaning near me", "210", "9", "$27.80", "No"],
+           ["sewer line repair", "140", "14", "$54.60", "No"],
+           ["tankless water heater installation", "110", "11", "$39.20", "No"],
+           ["sump pump installation", "90", "6", "$24.90", "No"],
+           ["gas line installation", "70", "8", "$35.70", "No"],
+           ["leak detection", "70", "10", "$29.40", "No"],
+           ["plumber hackensack nj", "50", "3", "$22.60", "No"]
+         ]},
+        {"type": "small", "text": "Source: Open SEO, county-level search volume. Nearby towns (Teaneck, Paramus, Fort Lee, River Edge, Bergenfield) have no town pages yet."},
+        {"type": "spacer", "height": 10},
+        {"type": "heading", "text": "What the website ranks for now"},
+        {"type": "table", "columns": ["Keyword", "Google position", "Monthly searches"], "widths": [0.5, 0.25, 0.25],
+         "rows": [["plumbing company hackensack", "#18", "30"], ["water heater repair", "#41", "480"], ["clogged drain", "#57", "720"]]}
+      ]
+    },
+    {
+      "title": "3. Google Maps and reviews",
+      "lead": "Most plumbing calls come from the Google Maps results. Example Plumbing shows up at <b>#16</b> for “plumber near me” searched from Hackensack.",
+      "blocks": [
+        {"type": "bar_chart", "title": "Competitors have 150–900 Google reviews. Example Plumbing has 9.",
+         "subtitle": "Google reviews on each company's Business Profile", "unit": "reviews", "width": 0.72,
+         "rows": [["Local Competitor A", 912, false], ["Local Competitor B", 486, false], ["Local Competitor D", 301, false], ["Local Competitor C", 154, false], ["Example Plumbing Co.", 9, true]]},
+        {"type": "small", "text": "Source: Open SEO Google Maps data."},
+        {"type": "table", "columns": ["Company", "“plumber near me”", "“emergency plumber”", "Rating", "Reviews"],
+         "widths": [0.34, 0.18, 0.2, 0.12, 0.16],
+         "rows": [["Local Competitor A", "1", "1", "4.9", "912"], ["Local Competitor B", "2", "3", "4.8", "486"], ["Local Competitor D", "3", "2", "4.9", "301"], ["Example Plumbing Co.", "16", "Not in top 20", "4.7", "9"]],
+         "highlight_row": 4},
+        {"type": "heading", "text": "Your Google Business Profile needs work"},
+        {"type": "bullets", "items": [
+          "Primary category is “Contractor” instead of “Plumber”; “Emergency plumber” is not added as a category.",
+          "Hours show 8am–5pm even though you offer 24/7 emergency service, so Google hides you for night searches.",
+          "Only 3 photos and no services listed (water heaters, drains, sewer, gas lines)."
+        ]}
+      ]
+    },
+    {
+      "title": "4. AI search visibility",
+      "lead": "When someone asks ChatGPT or Google's AI “who's a good emergency plumber in Hackensack?”, Example Plumbing is not mentioned.",
+      "blocks": [
+        {"type": "table", "columns": ["AI platform", "Mentions", "Pages cited"], "widths": [0.44, 0.28, 0.28],
+         "rows": [["ChatGPT", "0", "0"], ["Google AI Overviews", "0", "0"], ["Google AI Mode", "0", "0"], ["Gemini", "0", "0"]]},
+        {"type": "small", "text": "Source: Semrush AI Search. AI assistants draw on Google profiles, reviews and directory listings, so fixing local presence also fixes AI visibility."},
+        {"type": "spacer", "height": 14},
+        {"type": "heading", "text": "5. Backlinks and trust"},
+        {"type": "paragraph", "text": "The site has 38 links from 21 websites, mostly low-quality directories, and an Authority Score of 4 out of 100."},
+        {"type": "bullets", "items": [
+          "<b>Good links to build on:</b> the local chamber of commerce and a plumbing-supply house that lists trusted contractors.",
+          "<b>Missing trust signals:</b> the NJ Master Plumber license number, proof of insurance and warranty terms are not on the site.",
+          "<b>Conflicting details:</b> the phone number on Yelp and Angi differs from the website and Google profile."
+        ]}
+      ]
+    },
+    {
+      "title": "6. Website health check",
+      "lead": "The site has no critical errors, but every service is crammed onto one page and Google can't tell what you do best.",
+      "blocks": [
+        {"type": "table", "columns": ["Check", "Result"], "widths": [0.31, 0.69],
+         "rows": [["Pages crawled", "9"], ["Issues found", "27 (11 warnings, 16 informational, 0 critical)"], ["Mobile speed (Lighthouse)", "71 out of 100; main content appears after 3.6 seconds (target: under 2.5)"], ["Built with", "WordPress + page builder"]]},
+        {"type": "spacer", "height": 10},
+        {"type": "table", "columns": ["Issue", "Pages", "Type"], "widths": [0.6, 0.17, 0.23],
+         "rows": [["Missing meta description", "5", "Warning"], ["Duplicate title", "3", "Warning"], ["Images missing alt text", "3", "Warning"], ["Heading order, long titles and descriptions", "16", "Info"]]},
+        {"type": "heading", "text": "Other things we found"},
+        {"type": "bullets", "items": [
+          "One “Services” page covers everything; there are no pages for water heaters, drains, sewer lines, gas lines or emergencies.",
+          "No reviews, before-and-after photos or team photos on the site.",
+          "The “24/7 emergency” message is only in the footer, not at the top of the page."
+        ]}
+      ]
+    },
+    {
+      "title": "7. Legal and compliance risk",
+      "lead": "The site has <b>no privacy policy, terms and conditions or accessibility statement</b>, yet it collects names, phone numbers and addresses through its service form.",
+      "blocks": [
+        {"type": "table", "columns": ["Item", "Status on exampleplumbing.com"], "widths": [0.43, 0.57],
+         "rows": [["Privacy policy", "<font color='#C0392B'><b>Missing</b></font>"], ["Terms and conditions", "<font color='#C0392B'><b>Missing</b></font>"], ["Accessibility statement", "<font color='#C0392B'><b>Missing</b></font>"], ["Text-message consent on the form", "<font color='#C0392B'><b>Missing</b></font>"], ["License number on the site", "<font color='#C0392B'><b>Not shown</b></font>"]]},
+        {"type": "heading", "text": "What it can cost: real examples"},
+        {"type": "table", "columns": ["Risk", "What can happen", "Example amounts"], "widths": [0.22, 0.43, 0.35],
+         "rows": [
+           ["<b>Website accessibility (ADA) lawsuits</b>", "Plaintiff firms scan small-business websites and send demand letters or file suit. About 3,100 federal website accessibility lawsuits were filed in 2025, and over 5,000 including state courts.", "An Orlando flower shop paid <b>$7,000+</b> in late 2024; its website was managed by a third party. Average out-of-court settlement: about <b>$25,000–$30,000</b>."],
+           ["<b>Federal ADA civil penalty</b>", "Only the U.S. Department of Justice can seek it. Rare for small businesses, but it is the legal maximum.", "Up to <b>$118,225</b> for a first violation and <b>$236,451</b> for each later one."],
+           ["<b>Texting leads without written consent</b>", "Appointment or marketing texts sent without documented consent, under the federal TCPA.", "<b>$500 per text</b>, up to <b>$1,500</b> if willful, plus attorney's fees."],
+           ["<b>Business texting gets blocked</b>", "Carriers require a public privacy policy, terms and an SMS opt-in before approving business texting (A2P 10DLC).", "No fine, but dispatch texts, review requests and AI follow-up <b>cannot be switched on</b>."]
+         ]},
+        {"type": "small", "text": "Not legal advice; have a licensed attorney review final policies. Sources: Seyfarth Shaw (adatitleiii.com, 2026); UsableNet 2025; WFTV/AOL (Leaf &amp; Blossom, Co.); 28 CFR 36.504 (July 2025); Jimerson Firm (TCPA); Twilio A2P 10DLC docs; Verstian 2026 (settlement average)."}
+      ]
+    },
+    {
+      "title": "8. What we recommend",
+      "lead": "The fastest gains come from Google Maps, reviews and answering every lead in under a minute.",
+      "blocks": [
+        {"type": "plan", "phases": [
+          {"title": "Days 1–30: foundation", "items": [
+            "Fix the Google Business Profile: “Plumber” and “Emergency plumber” categories, 24/7 hours, services, 20+ photos",
+            "Make the phone number identical on the website, Google, Yelp, Angi and BBB",
+            "Publish a privacy policy, terms and accessibility statement; add SMS consent and the license number",
+            "Start automatic review requests by text after every job"]},
+          {"title": "Days 31–60: content and coverage", "items": [
+            "Add pages for emergency plumbing, water heaters (tank and tankless), drain cleaning, sewer lines, gas lines and sump pumps",
+            "Add town pages for Hackensack, Teaneck, Paramus, Fort Lee and River Edge",
+            "Connect Google Search Console and Analytics in accounts you own"]},
+          {"title": "Days 61–90: authority and more calls", "items": [
+            "Earn local links (chamber, supply houses, home inspectors, realtors)",
+            "Reach 50+ Google reviews",
+            "24/7 AI call answering and instant text replies so no emergency call goes to voicemail",
+            "Re-run this report to measure the change"]}
+        ]},
+        {"type": "spacer", "height": 10},
+        {"type": "targets", "text": "Google Maps top 3 for “plumber near me” and “emergency plumber” · 50+ Google reviews · every lead answered in under 1 minute · calls tracked by source"},
+        {"type": "spacer", "height": 18},
+        {"type": "contact"}
+      ]
+    }
+  ]
+}

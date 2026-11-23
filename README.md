@@ -6,6 +6,8 @@ Point Claude at any local business website and get back:
 2. **A client questionnaire** — "AI & Growth Audit Questionnaire" that turns every red flag into a question for the owner.
 3. **A short summary** of headline findings and what to verify by hand.
 
+**See a sample:** [Example Plumbing Co. report (PDF)](examples/sample-report-plumbing.pdf) — a fictional plumbing company with illustrative data.
+
 Built by [Chris Fotomaras](https://hypnos-ai.com) at **Hypnos AI** as part of a build-in-public series of small-business automations.
 
 ## What you need
@@ -34,10 +36,13 @@ Claude researches the site, builds the PDF and the questionnaire, and tells you 
 ## Build a report by hand
 
 ```bash
-python3 scripts/build_report.py examples/example-config.json example-report.pdf
+python3 scripts/build_report.py examples/plumbing-config.json my-report.pdf
 ```
 
-`examples/example-config.json` shows every block type (KPI grid, bar charts, tables, callouts, 30/60/90 plan, contact block). The sample uses a fictional business.
+- `examples/plumbing-config.json` — a full 8-section report (the one behind the sample PDF).
+- `examples/example-config.json` — a shorter template showing every block type (KPI grid, bar charts, tables, callouts, 30/60/90 plan, contact block).
+
+Both use fictional businesses. Set `"report_label"` to change the small line above the business name on the cover.
 
 ## Make it yours
 
@@ -48,7 +53,9 @@ The report is branded for Hypnos AI. To use your own brand, change the `brand` b
 ```
 SKILL.md                    the instructions Claude follows
 scripts/build_report.py     JSON config -> branded PDF
-examples/example-config.json
+examples/plumbing-config.json      full sample config
+examples/sample-report-plumbing.pdf
+examples/example-config.json       short template
 assets/hypnos-logo.png
 ```
 
